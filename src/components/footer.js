@@ -179,7 +179,7 @@ const Footer = () => (
           <a href="mailto:mirandajgb@gmail.com">mirandajgb@gmail.com</a>
         </h4>
         <h4>
-          <a href="https://www.linkedin.com/in/alejandra-anzures-arciniega-545a99161/">
+          <a href="https://www.linkedin.com/in/miranda-jannel-garc%C3%ADa-79824b171/">
             Linkedin
           </a>
         </h4>
