@@ -21,7 +21,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   :root {
-    --primary-color: #141943;
+    --primary-color: #C596F3;
     --white: #FFFAFF;
   }
 
@@ -120,7 +120,7 @@ export const GlobalStyle = createGlobalStyle`
 
   h1 {
     font-size: 78px;
-    color: #F3AA96;
+    color: #C596F3;
 
     @media ${theme.breakpoint.onlyMobile} {
       font-size: 2.25rem;

@@ -11,7 +11,7 @@ const Menu = () => (
     <MenuRight>
       <MenuItem to="#work">Work</MenuItem>
       <MenuItem to="#about">Acerca de mí</MenuItem>
-      <MenuItem as="a" href="mailto:alejaanzures@gmail.com">
+      <MenuItem as="a" href="mailto:mirandajgb@gmail.com">
         Contacto
       </MenuItem>
     </MenuRight>

@@ -11,105 +11,154 @@ const Footer = () => (
             <div style={{ marginBottom: "2rem" }}>
               <h5>Sobre mi</h5>
               <p>
-                Desde que era pequeña me encantaba leer, cuando terminaba un
-                libro me daba cuenta que las palabras del autor podían tocar
-                fibras muy sensibles en las personas sin necesidad de
-                conocerlas. Pensaba que era una forma sublime de transmitir el
-                conocimiento. Así que a los 12 años comencé a tener un blog, ahí
-                escribía lo que aprendía, lo que sentía y todas las cosas que
-                leía.
-              </p>
-              <p>
-                Desde ese momento noté que me expresaba mejor de forma escrita y
-                comencé a buscar cursos y libros que me ayudaran a mejorar mi
-                técnica. Poco a poco fui metiéndome en el mundo de la
-                creatividad y empecé a aprender otras cosas que me ayudaron a
-                explotar al máximo la forma de comunicarme. Mi experiencia de
-                trabajo va desde la creación de un concepto para una marca, el
-                branding, la comunicación y los medios para darla a conocer.
-                Además de el liderazgo para guiar a los equipos a lograr una
-                meta en conjunto.
+                Por el amor a los números y los negocios decidí emprender mi
+                camino estudiando la carrera de Contadora Pública, así es como
+                también desde los 18 años comencé a trabajar en despachos
+                contables y empresas privadas que me han hecho adquirir diversos
+                conocimientos, principalmente en temas fiscales y el trato con
+                el cliente. Me apasiona la educación continua y poder
+                compartirlo a los demás, es por ello que en el 2020 nace un
+                proyecto junto con unos compañeros llamado La Hora SAT.
               </p>
             </div>
             <Comp.Row mobile padded>
               <Comp.Column style={{ flex: "1" }} padded>
-                <h5>skills</h5>
+                <h5>Skills/sistemas</h5>
                 <ul>
-                  <li>Estrategia de comunicación </li>
-                  <li>Desarrollo de conceptos creativos </li>
-                  <li>Storytelling</li>
-                  <li>Manejo y gestión de redes sociales</li>
-                  <li>Marketing digital </li>
-                  <li>Análisis de reportes </li>
-                  <li>Dirección creativa </li>
+                  <li>
+                    Cálculo y presentación de impuestos definitivos y
+                    provisionales de Personas{" "}
+                  </li>
+                  <li>Físicas y Morales</li>
+                  <li>Trato directo con el cliente.</li>
+                  <li>Ponente y creadora de cursos educativos.</li>
+                  <li>Dominio básico/intermedio del inglés.</li>
+                  <li>Contpaq, Nominpaq, DIOT 2019, SIPARE.</li>
+                  <li>Microsoft Excel, Word, Power Point.</li>
+                  <li>SUA, portal electrónico del SAT, IDSE, SAP.</li>
                 </ul>
               </Comp.Column>
               <Comp.Column style={{ flex: "1" }} padded>
-                <h5>Herramientas</h5>
+                <h5>Experiencia en</h5>
                 <ul>
-                  <li>Estrategia de comunicación </li>
-                  <li>Desarrollo de conceptos creativos </li>
-                  <li>Storytelling</li>
-                  <li>Manejo y gestión de redes sociales</li>
-                  <li>Marketing digital </li>
-                  <li>Análisis de reportes </li>
-                  <li>Dirección creativa </li>
+                  <li>
+                    Supervisión e implementación procesos administrativos y
+                    operativos de inventarios alineados a Manuales de Políticas
+                    y Procedimientos.
+                  </li>
+                  <li>
+                    En áreas de importación y comercialización de mercancía.
+                  </li>
+                  <li>
+                    En el ámbito contable/fiscal, en la elaboración del cálculo
+                    de impuestos Federales y Estatales, supervisando la
+                    implementación adecuada de las Leyes Fiscales en
+                    contabilidades de empresas privadas.
+                  </li>
                 </ul>
               </Comp.Column>
             </Comp.Row>
           </Comp.Column>
           <Comp.Column style={{ flex: "1" }} padded>
+            <div style={{ marginBottom: "2rem" }}>
+              <h5>LOGROS</h5>
+              <p>
+                Co-creadora y ponente en el curso &quot;Quiúbole con el
+                SAT&quot; ante estudiantes de la Universidad Anáhuac Mayab
+                (2021)
+                <br />
+                <br />
+                Co-creadora y ponente en el curso &quot;Hacks para
+                freelancers&quot; edición 1, 2, 3 y 4 (2021).
+                <br />
+                <br />
+                Co-creadora y ponente en el curso &quot;Pasos básicos para
+                sobrevivir al SATanás&quot; edición 1, 2 y 3 (2021).
+                <br />
+                <br />
+                Creadora y ponente en el curso &quot;Quiúbole con el SAT vol.
+                2&quot; ante estudiantes de la Facultad de Medicina de Nuevo
+                León (2020).
+                <br />
+                <br />
+                Creadora y ponente en el curso &quot;Quiúbole con el SAT&quot;
+                ante el grupo estudiantil ROTARACT de la Facultad de Medicina de
+                Nuevo León (2020).
+                <br />
+                <br />
+                Grado sobresaliente en examen de titulación de EGEL (2019).
+                <br />
+                <br />
+                Presidenta del Sector Estudiantil de Contadores Públicos de
+                Colima del IMCP (2019).
+                <br />
+                <br />
+                Ponente en el curso de Ley Federal de los Derechos del
+                Contribuyente y Acuerdos Conclusivos (2018) ante la Comisión
+                Fiscal del IMCP.
+                <br />
+                <br />
+                Tercer lugar en el Primer Maratón de Ética de Colima (2018) del
+                IMCP.
+              </p>
+            </div>
             <Comp.Row mobile padded>
               <Comp.Column style={{ flex: "2" }} padded>
                 <h5>experiencia laboral</h5>
                 <p>
-                  Social Noise (Agosto 2017 - Dic 2017)
-                  <br /> Copy Trainee
+                  Asistente directivo de operaciones
+                  <br />
+                  Hechos con Mucho Gusto, S.A. de C.V. <br />
+                  Junio 2020 - Abril 2021
                   <br />
                   <br />
-                  Go Disruptive (Mayo 2018 - Abril 2019)
-                  <br /> Copywriter Jr.
+                  Auditor Jr
+                  <br />
+                  Administración Corporativa de Colima, S.C.
+                  <br />
+                  Julio 2019 - Octubre 2019
                   <br />
                   <br />
-                  Residencia (Marzo 2019 - Septiembre 2019)
-                  <br /> Copywriter Jr.
+                  Contador Sr
+                  <br />
+                  Ceceña, Brambila, Camarena y Cía, S.C., Moore Stephens
+                  <br />
+                  Junio 2019 - Julio 2019
                   <br />
                   <br />
-                  MyBusiness POS (Dic 2019 - )<br /> Directora de Mkt
+                  Contralor jr
+                  <br />
+                  Inward Consultoría Fiscal y Patrimonial, S.C.
+                  <br /> Junio 2016 - Mayo 2019
                   <br />
                   <br />
-                  La hora SAT (Sept 2020 - )<br /> Co - founder y Brand Content
-                  Manager
-                  <br />
-                  <br />
-                  Pachefest (abril 2020 - )<br /> Organizadora y directora del
-                  festival
-                  <br />
-                  <br />
-                  Neat (Junio 2021 - Nov 2021)
-                  <br /> Content Manager Specialist
                 </p>
               </Comp.Column>
               <Comp.Column style={{ flex: "2" }} padded>
                 <h5>FORMACIÓN PROFESIONAL</h5>
                 <p>
-                  Licenciatura en Publicidad
-                  <br /> Universidad de la comunicación <br />
+                  Contadora Pública | 2015 - 2019
                   <br />
-                  Curso de producción digital <br />
-                  Simulador de vuelo
-                  <br />
-                  <br />
-                  Diplomado de creatividad digital <br />
-                  Academia Mexicana de creatividad
+                  Facultad de Contabilidad y Administración de Colima por la
+                  Universidad de Colima.
                   <br />
                   <br />
-                  Programa de especialización de arte y fotografía <br />
-                  CENTRO
+                  Diplomado en &quot;Derecho Fiscal&quot; | 2021
+                  <br />
+                  Facultad de Derecho de Colima por la Universidad de Colima.
                   <br />
                   <br />
-                  Curso de guionismo <br />
-                  Complot Escuela de creatividad Barcelona
+                  Diplomado en &quot;Implementación de políticas públicas para
+                  el combate al lavado de dinero&quot; | 2020
+                  <br />
+                  Escuela de Gobierno y Transformación Pública por el
+                  Tecnológico de Monterrey.
+                  <br />
+                  <br />
+                  Seminario en &quot;Análisis Estratégico de Datos&quot; | 2020
+                  <br />
+                  Escuela de Gobierno y Transformación Pública por el
+                  Tecnológico de Monterrey.
                 </p>
               </Comp.Column>
             </Comp.Row>
@@ -127,7 +176,7 @@ const Footer = () => (
         </h4>
         Correo electrónico:
         <h4>
-          <a href="mailto:alejaanzures@gmail.com">alejaanzures@gmail.com</a>
+          <a href="mailto:mirandajgb@gmail.com">mirandajgb@gmail.com</a>
         </h4>
         <h4>
           <a href="https://www.linkedin.com/in/alejandra-anzures-arciniega-545a99161/">
@@ -135,7 +184,7 @@ const Footer = () => (
           </a>
         </h4>
         <div style={{ marginTop: "3rem" }}>
-          © {new Date().getFullYear()} — alejaanzures.com
+          © {new Date().getFullYear()} — mirandajannel.com
         </div>
       </Comp.Container>
     </Contacto>
@@ -148,15 +197,15 @@ const sharedContainer = css`
 
 const AboutContainer = styled.div`
   ${sharedContainer}
-  background: #F3AA96;
-  color: #2c0c03;
+  background: #C596F3;
+  color: #000000;
   color: #fff;
   margin-top: 6rem;
   font-size: 14px;
   h5,
   p,
   li {
-    color: #2c0c03;
+    color: #000000;
   }
   h5 {
     text-transform: uppercase;
@@ -168,8 +217,8 @@ const AboutContainer = styled.div`
 
 const Contacto = styled.div`
   width: 100%;
-  background: #2c0c03;
-  color: #f3aa96;
+  background: #000;
+  color: #c596f3;
   padding: 6rem 0;
   text-align: center;
 `;

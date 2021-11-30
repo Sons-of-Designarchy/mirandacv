@@ -6,21 +6,7 @@ import { Link } from "gatsby";
 // eslint-disable-next-line
 const HoraSat = require("../images/thumbnails/horasat.jpg");
 // eslint-disable-next-line
-const Pachefest = require("../images/thumbnails/pachefest.jpg");
-// eslint-disable-next-line
-const HighGaang = require("../images/thumbnails/high-gaang.jpg");
-// eslint-disable-next-line
-const Neat = require("../images/thumbnails/neat.jpg");
-// eslint-disable-next-line
-const MyBusiness = require("../images/thumbnails/mybusiness.jpg");
-// eslint-disable-next-line
-const Malvestida = require("../images/thumbnails/malvestida.jpg");
-// eslint-disable-next-line
-const volks = require("../images/thumbnails/volkswagen.jpg");
-// eslint-disable-next-line
-const Walmart = require("../images/thumbnails/walmart.jpg");
-// eslint-disable-next-line
-const Sams = require("../images/thumbnails/sams.jpg");
+const Servicios = require("../images/thumbnails/contables.jpg");
 
 export const HomeProjects: React.FC = () => {
   return (
@@ -29,60 +15,13 @@ export const HomeProjects: React.FC = () => {
         <ProjectCard
           image={HoraSat}
           name="La Hora SAT"
-          description="Co founder - Brand Content Manager"
+          description="Co-founder y Asesora Fiscal"
           external_url="http://instagram.com/lahorasat"
         />
         <ProjectCard
-          image={Pachefest}
-          name="Pachefest"
-          description="Organizadora y directora"
-          external_url="http://instagram.com/pachefestmx"
-        />
-        <ProjectCard
-          image={HighGaang}
-          name="High Gaang"
-          description="Founder y directora"
-          external_url="https://www.instagram.com/highgaang/"
-        />
-      </Comp.Row>
-      <Comp.Row mobile padded>
-        <ProjectCard
-          image={Neat}
-          name="Neat"
-          description="Content Manager"
-          external_url="https://www.instagram.com/neatpagos/"
-        />
-        <ProjectCard
-          image={MyBusiness}
-          name="My Business POS"
-          description="Dirección de MKT"
-          url="/mybusiness"
-        />
-        <ProjectCard
-          image={Malvestida}
-          name="Malvestida"
-          description="Redactora"
-          external_url="https://www.instagram.com/highgaang/"
-        />
-      </Comp.Row>
-      <Comp.Row mobile padded>
-        <ProjectCard
-          image={volks}
-          name="Volkswagen"
-          description="Copywriter"
-          url="/volkswagen-twitter"
-        />
-        <ProjectCard
-          image={Walmart}
-          name="Walmart"
-          description="Copywriter"
-          url="/walmart"
-        />
-        <ProjectCard
-          image={Sams}
-          name="Sam's Club"
-          description="Copywriter"
-          url="/sams-pitch"
+          image={Servicios}
+          name="Servicios Contables"
+          description="Asesora Fiscal"
         />
       </Comp.Row>
     </ProjectsContainer>
@@ -121,18 +60,32 @@ const ProjectCard: React.FC<ProjectProps> = ({
             </p>
           </a>
         ) : (
-          <Link to={url}>
-            <ProjectImage>
-              <img src={image} />
-              <HoverActions>
-                <span>Ver Proyecto</span>
-              </HoverActions>
-            </ProjectImage>
-            <h4 style={{ marginBottom: "0.5rem" }}>{name}</h4>
-            <p className="font-sm">
-              <i>{description}</i>
-            </p>
-          </Link>
+          <>
+            {url ? (
+              <Link to={url}>
+                <ProjectImage>
+                  <img src={image} />
+                  <HoverActions>
+                    <span>Ver Proyecto</span>
+                  </HoverActions>
+                </ProjectImage>
+                <h4 style={{ marginBottom: "0.5rem" }}>{name}</h4>
+                <p className="font-sm">
+                  <i>{description}</i>
+                </p>
+              </Link>
+            ) : (
+              <>
+                <ProjectImage>
+                  <img src={image} />
+                </ProjectImage>
+                <h4 style={{ marginBottom: "0.5rem" }}>{name}</h4>
+                <p className="font-sm">
+                  <i>{description}</i>
+                </p>
+              </>
+            )}
+          </>
         )}
       </ProjectCardContainer>
     </>

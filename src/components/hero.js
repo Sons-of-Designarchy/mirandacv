@@ -11,7 +11,7 @@ const Hero = () => (
         <div style={{ flex: 1, marginRight: "1rem" }}>
           <h1 className="reset-m">
             ¡Hola! Soy <br />
-            <i>Ale Anzures</i>
+            <i>Miranda Garcia</i>
           </h1>
         </div>
         <div>
@@ -19,16 +19,14 @@ const Hero = () => (
         </div>
       </HeroRow>
       <Comp.Row mobile padded>
-        <p style={{ padding: "1rem" }}>
-          Mi especialidad es la comunicación, me encargo de contar la historia
-          de una marca a través de diferentes canales para lograr crear un
-          vínculo con la comunidad y hacer que esta crezca.
+        <p style={{ padding: "1rem", flex: "1" }}>
+          Soy Contadora Pública egresa de la Universidad de Colima, actualmente
+          desempeñándome como Contadora Independiente llevando Contabilidades de
+          empresas privadas.
         </p>
-        <p style={{ padding: "1rem" }}>
-          Actualmente soy Co-founder y Brand Content Manager de La hora SAT,
-          Organizadora del festival Pachefest y Directora general de la marca
-          High Gaang.{" "}
-        </p>
+        <h3 style={{ padding: "1rem", flex: "1" }}>
+          Co-founder y Asesora Fiscal de La Hora SAT.
+        </h3>
       </Comp.Row>
     </HeroContent>
   </HeroContainer>
